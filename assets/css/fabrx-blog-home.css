@@ -63,3 +63,45 @@
 .header-logo-user-info-basket-notification .basket-notification .notification {
   padding-left: 40px;
 }
+
+.writes-and-phones-photos .writes .outer-frame {
+  width: 500px;
+  height: 280px;
+  border: 1px solid black;
+  padding: 48px;
+}
+
+.writes-and-phones-photos .writes .outer-frame .title-and-write {
+  width: 400px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+.writes-and-phones-photos .writes .outer-frame .title-and-write h3 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+}
+
+.writes-and-phones-photos .writes .outer-frame .title-and-write .avatar-and-write {
+  display: flex;
+  flex-direction: row;
+}
+
+.writes-and-phones-photos .writes .outer-frame .title-and-write .avatar-and-write .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.writes-and-phones-photos .writes .outer-frame .title-and-write .avatar-and-write p {
+  width: 200px;
+  height: 24px;
+  line-height: 24px;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 12px;
+}
