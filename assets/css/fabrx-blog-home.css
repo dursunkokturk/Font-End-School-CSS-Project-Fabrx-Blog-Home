@@ -64,20 +64,35 @@
   padding-left: 40px;
 }
 
+.writes-and-phones-photos .writes {
+  display: flex;
+}
+
 .writes-and-phones-photos .writes .outer-frame {
   width: 500px;
   height: 280px;
   border: 1px solid black;
   padding: 48px;
+  display: flex;
+  position: relative;
 }
 
 .writes-and-phones-photos .writes .outer-frame .title-and-write {
-  width: 400px;
-  height: 180px;
+  width: 500px;
+  height: 200px;
   border: 1px solid black;
+  background-color: white;
+  margin-top: 350px;
+  margin-left: 213px;
+  padding-top: 15px;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 1;
 }
 
 .writes-and-phones-photos .writes .outer-frame .title-and-write h3 {
+  width: 430px;
+  padding-left: 20px;
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
@@ -88,6 +103,7 @@
 .writes-and-phones-photos .writes .outer-frame .title-and-write .avatar-and-write {
   display: flex;
   flex-direction: row;
+  padding-left: 20px;
 }
 
 .writes-and-phones-photos .writes .outer-frame .title-and-write .avatar-and-write .avatar {
@@ -104,4 +120,7 @@
   font-size: 14px;
   line-height: 24px;
   padding-left: 12px;
+}
+.writes-and-phones-photos .writes .phones-photos {
+  position: absolute;
 }
