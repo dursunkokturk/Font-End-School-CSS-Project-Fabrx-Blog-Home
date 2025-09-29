@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-logo-user-info-basket-notification {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo-user-info-basket-notification .logo {
+  padding-top: 32px;
+  padding-left: 165px;
+}
+
+.header-logo-user-info-basket-notification .avatar-basket-notification {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo-user-info-basket-notification .avatar {
+  padding-top: 32px;
+  padding-left: 774px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo-user-info-basket-notification .avatar .avatar-logo img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.header-logo-user-info-basket-notification .avatar .avatar-logo {
+  padding-right: 8px;
+}
+
+.header-logo-user-info-basket-notification .avatar .icon-down {
+  width: 12px;
+  height: 12px;
+  padding-left: 10px;
+}
+
+.header-logo-user-info-basket-notification .avatar p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.header-logo-user-info-basket-notification .basket-notification {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-left: 48px;
+}
+
+.header-logo-user-info-basket-notification .basket-notification .basket {
+  width: 20px;
+  height: 20px;
+}
+
+.header-logo-user-info-basket-notification .basket-notification .notification {
+  padding-left: 40px;
+}
