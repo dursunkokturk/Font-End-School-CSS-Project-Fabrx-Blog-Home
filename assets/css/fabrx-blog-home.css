@@ -283,3 +283,83 @@
   margin-left: 532px;
   margin-top: -70px;
 }
+
+.tourism-promotion {
+  width: 1110px;
+  height: 1365px;
+  border: 1px solid black;
+  margin-left: 165px;
+  margin-top: 136px;
+}
+
+.tourism-promotion .general-title h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 25px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 56px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .photo img {
+  width: 445px;
+  height: 250px;
+  border-radius: 16px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write {
+  width: 553px;
+  height: 189px;
+  margin-left: 32px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write h1 {
+  font-family: Montserrat;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-top: 28px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write .avatar-and-write {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write .avatar-and-write img {
+  border-radius: 50%;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write .avatar-and-write p {
+  font-family: Open Sans;
+  font-size: 14px;
+  padding-left: 12px;
+}
+
+.tourism-promotion .promotion-photos-and-writes .group .write {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.promotion-photos-and-writes .button {
+  display: flex;
+  justify-content: center;
+}
+
+.promotion-photos-and-writes button {
+  width: 272px;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  background-color: #0D6EFD;
+  color: white;
+  
+}
