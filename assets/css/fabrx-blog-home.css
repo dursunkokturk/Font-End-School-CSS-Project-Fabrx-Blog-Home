@@ -363,3 +363,39 @@
   color: white;
   
 }
+
+.information-and-e-mail {
+  width: 1110px;
+  height: 354px;
+  margin-left: 165px;
+  margin-top: 80px;
+  background-color: #0D6EFD;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 120px;
+}
+
+.information-and-e-mail .content {
+  width: 426px;
+  height: 201px;
+  padding-top: 77px;
+  padding-left: 340px;
+}
+
+.information-and-e-mail .content h3 {
+  width: 426px;
+  height: 96px;
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+}
+
+.information-and-e-mail .content p {
+  width: 300px;
+  height: 21px;
+  font-family: Open Sans;
+  font-size: 12px;
+  line-height: 21px;
+  padding-top: 80px;
+}
