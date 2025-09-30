@@ -451,3 +451,28 @@
   display: flex;
   justify-content: flex-end;
 }
+
+footer {
+  width: 1110px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-left: 165px;
+  justify-content: space-between;
+}
+
+footer .icon-ok img {
+  width: 19px;
+  height: 19px;
+}
+
+footer .website-owner p {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer .logos img {
+  padding-right: 40px;
+}
