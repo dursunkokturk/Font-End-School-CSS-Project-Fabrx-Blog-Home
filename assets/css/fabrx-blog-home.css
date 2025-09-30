@@ -68,9 +68,9 @@
   display: flex;
 }
 
-.writes-and-phones-photos .writes {
-  /* display: flex; */
-}
+/* .writes-and-phones-photos .writes {
+  display: flex;
+} */
 
 .writes-and-phones-photos .writes .outer-frame {
   width: 540px;
@@ -132,6 +132,85 @@
   line-height: 24px;
   padding-left: 12px;
 }
+
 .writes-and-phones-photos .writes .phones-photos {
   position: absolute;
+}
+
+.watch-headphone-phones-computers {
+  display: block;
+  clear: both;
+  width: 1110px;
+  height: 1067px;
+  border: 1px solid black;
+  margin-top: 661px;
+  margin-left: 165px;
+  position: relative;
+  z-index: 1;
+}
+
+.watch-headphone-phones-computers .product-group-1{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 130px;
+}
+
+.watch-headphone-phones-computers .product-group-2{
+  display: flex;
+  flex-direction: row;
+}
+
+.watch-headphone-phones-computers .product{
+  padding-right: 15px;
+}
+
+.watch-headphone-phones-computers .general-title h2 {
+  width: 1110px;
+  height: 59px;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.watch-headphone-phones-computers .product-informations {
+  margin-bottom: 10px;
+}
+
+.watch-headphone-phones-computers .product-informations img {
+  width: 354px;
+  height: 294px;
+  border-radius: 12px;
+}
+
+.watch-headphone-phones-computers .product-informations h2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.watch-headphone-phones-computers .author .author-photo {
+  display: flex;
+  flex-direction: row;
+}
+
+.watch-headphone-phones-computers .author .author-photo img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.watch-headphone-phones-computers .author .author-photo p {
+  font-family: Open sans;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+.watch-headphone-phones-computers .author-write {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+  width: 354px;
+  height: 72px;
 }
