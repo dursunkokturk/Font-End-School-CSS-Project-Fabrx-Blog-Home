@@ -399,3 +399,55 @@
   line-height: 21px;
   padding-top: 80px;
 }
+
+.links-and-email {
+  width: 1110px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 165px;
+  margin-bottom: 145px;
+  display: flex;
+  flex-direction: row;
+}
+
+.links-and-email .link-groups {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-and-email .link-groups .group {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 152px;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 72px;
+}
+
+.links-and-email .link-groups .group .first-column {
+  font-weight: 700;
+}
+
+.links-and-email .link-groups .group a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links-and-email .email {
+  margin-left: 24px;
+  margin-left: 90px;
+}
+
+.links-and-email .email p {
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 72px;
+  width: 354px;
+  height: 28px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
